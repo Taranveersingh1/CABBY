@@ -1,0 +1,21 @@
+.bannerMiniContainer{
+    transform: translateY(-35rem); /* move text in the image wala block*/
+}
+.cropped-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/taxi-sign-car-night_181624-14020.jpg?t=st=1714718530~exp=1714722130~hmac=c8f47e1ff9d5d01e5816d92de03951a2e7abcee515ad918dd064a20bbcbeda54&w=826);
+    background-size: cover;
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+}
+.searchCabby{
+   /* height: 50px; */
+box-sizing: border-box;
+width: 282px;
+text-align: left;
+background-image: url(https://img.freepik.com/free-photo/taxi-sign-car-night_181624-14020.jpg?t=st=1714718530~exp=1714722130~hmac=c8f47e1ff9d5d01e5816d92de03951a2e7abcee515ad918dd064a20bbcbeda54&w=826)
+radial-gradient(127.68% 2996.56% at 12.65% 127.68%,#000000 0%,#222222 100%);
+background-repeat: no-repeat;
+background-position: bottom;
+border: none;
+}
