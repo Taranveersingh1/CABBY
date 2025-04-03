@@ -20,12 +20,12 @@ const Banner = () => {
           <button className='text-white'>Outstation</button>
           </div>
          <div className='bg-transparent pt-5 '>
-          <div className=' bg-white flex items-center justify-evenly'>
-            <div className='flex items-center py-2 px-14 border border-slate-900'>
+          <div className=' bg-transparent flex items-center justify-evenly'>
+            <div className='bg-white flex items-center py-2 px-14 border border-slate-900'>
             
               <CircleIcon className="pr-8 text-green-900 " style={{fontSize:40}} /><input name='current location' placeholder='Current Location'/>
             </div>
-            <div className='flex items-center py-2 px-14 border border-slate-900 mr-6'>
+            <div className='bg-white flex items-center py-2 px-14 border border-slate-900 mr-6'>
               <CircleIcon className="pr-8 text-red-700" style={{fontSize:40}}/><input name='destination location' placeholder='Destination Location'/>
             </div>
             <div onClick={()=>router.push("login")} className="searchCabby cursor-pointer flex items-center py-5 px-14 bg-black border border-slate-900 justify-around">
